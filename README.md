@@ -77,6 +77,8 @@ npm start
 - `id` (PK)
 - `email`
 - `passwordHash`
+  <img width="524" height="73" alt="image" src="https://github.com/user-attachments/assets/f18395e7-c627-4fa6-837b-d1524472a27b" />
+
 
 ### 🐞 Bugs
 - `id` (PK)
@@ -87,6 +89,7 @@ npm start
 - `assigneeId` (FK → Users.id)
 - `createdAt`
 - `updatedAt`
+<img width="926" height="140" alt="image" src="https://github.com/user-attachments/assets/681c5c43-1010-492c-ad84-1fbd81fa2d03" />
 
 ### 💬 Comments
 - `id` (PK)
@@ -94,6 +97,7 @@ npm start
 - `authorId` (FK → Users.id)
 - `body`
 - `createdAt`
+<img width="507" height="65" alt="image" src="https://github.com/user-attachments/assets/cba684ed-b8db-4245-82ee-f3b1334e695b" />
 
 ## 🔌 API Endpoints
 
