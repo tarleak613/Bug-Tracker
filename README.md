@@ -95,24 +95,22 @@ npm start
 - `body`
 - `createdAt`
 
-##🔌 API Endpoints
-Auth
+## 🔌 API Endpoints
 
-POST /api/auth/register → Register new user
-POST /api/auth/login → Login & get JWT
+### 🛂 Auth
+- **POST** `/api/auth/register` → Register new user
+- **POST** `/api/auth/login` → Login & get JWT
 
-Bugs
+### 🐞 Bugs
+- **POST** `/api/bugs` → Create a new bug
+- **GET** `/api/bugs` → List all bugs (supports filters: `severity`, `status`)
+- **GET** `/api/bugs/{id}` → Get details of a specific bug
+- **PUT** `/api/bugs/{id}` → Update bug (status, assignee, etc.)
+- **DELETE** `/api/bugs/{id}` → Delete a bug
 
-POST /api/bugs → Create bug
-GET /api/bugs → List bugs (supports filters: severity, status)
-GET /api/bugs/{id} → Get bug details
-PUT /api/bugs/{id} → Update bug (status, assignee, etc.)
-DELETE /api/bugs/{id} → Delete bug
-
-Comments
-
-POST /api/bugs/{id}/comments → Add comment to bug
-GET /api/bugs/{id}/comments → List comments for bug
+### 💬 Comments
+- **POST** `/api/bugs/{id}/comments` → Add a comment to a bug
+- **GET** `/api/bugs/{id}/comments` → List comments for a bug
 
 
 ## 🐛 Features Implemented
