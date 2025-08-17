@@ -77,7 +77,7 @@ npm start
 - `id` (PK)
 - `email`
 - `passwordHash`
-  <img width="524" height="73" alt="image" src="https://github.com/user-attachments/assets/f18395e7-c627-4fa6-837b-d1524472a27b" />
+<img width="524" height="73" alt="image" src="https://github.com/user-attachments/assets/f18395e7-c627-4fa6-837b-d1524472a27b" />
 
 
 ### 🐞 Bugs
