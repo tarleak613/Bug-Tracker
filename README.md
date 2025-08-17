@@ -73,30 +73,27 @@ npm start
 
 ## 📂 Database Schema
 
-### Users
+### 🧑 Users
+- `id` (PK)
+- `email`
+- `passwordHash`
 
-id (PK)
-email
-passwordHash
+### 🐞 Bugs
+- `id` (PK)
+- `title`
+- `description`
+- `severity` (Low / Medium / High)
+- `status` (New / In Progress / Fixed / Verified)
+- `assigneeId` (FK → Users.id)
+- `createdAt`
+- `updatedAt`
 
-### Bugs
-
-id (PK)
-title
-description
-severity (Low/Medium/High)
-status (New/In Progress/Fixed/Verified)
-assigneeId (FK → Users.id)
-createdAt
-updatedAt
-
-### Comments
-
-id (PK)
-bugId (FK → Bugs.id)
-authorId (FK → Users.id)
-body
-createdAt
+### 💬 Comments
+- `id` (PK)
+- `bugId` (FK → Bugs.id)
+- `authorId` (FK → Users.id)
+- `body`
+- `createdAt`
 
 ##🔌 API Endpoints
 Auth
